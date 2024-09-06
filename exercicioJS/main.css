@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header, .container, footer {
+    margin: 28px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form{
+    display: block;
+    margin-top: 40px;
+}
+
+input{
+    display:block;
+    padding: 8px;
+    margin-bottom: 16px;
+    width: 50%;
+    resize: none;
+}
+
+#numero-menor{
+    background-color: rgba(112, 194, 112, 0.514);
+    font-weight: bold;
+    font-size:18px;
+}
+
+#numero-maior{
+    background-color: rgba(41, 177, 255, 0.699);
+    font-weight: bold;
+    font-size:18px;
+}
+
+button {
+    background-color: gray;
+    border-color: orange;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(221, 152, 25);
+}
+
+.success-message {
+    background-color: rgb(161, 248, 73);
+    color: gray;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+}
+
+.error-message {
+    background-color: red;
+    font-size: 32px;
+    color:white;
+    margin-bottom: 8px;
+    display:none;
+}
